@@ -1,0 +1,225 @@
+
+
+
+
+header {
+  
+    background-color: #07311d;
+    width: 100%;
+    position:fixed;
+    /* z-index wird verwendet, um sicherzustellen,
+     dass der Header immer oben bleibt, 
+     selbst wenn auf der Seite gescrollt wird */
+
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    align-items: center;
+    box-shadow: 0 0px 50px rgba(5 5 5 / 100%);
+
+}
+
+.logo{
+    text-decoration: none;
+    color: #E3D9C6;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.8em;
+    
+}
+
+.nacigation a{
+    text-decoration: none;
+    color: #E3D9C6;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left :20px; ;
+
+}
+.nacigation a:hover{
+    color: #d9e9b7;
+}
+section{
+
+    padding: 100px 200px;
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    /*background: url(images/IMG_0313.jpg) no-repeat;*/
+    /*background: url(images/supermarket-background-snr9mxlroi5qrs8n.webp) no-repeat;*/
+    background-color: #000000;
+    background-size:cover;
+    background-position:  center;
+    background-attachment: fixed;
+    
+    
+}
+.main h2{
+    color:#E3D9C6;
+    margin-top: 10px ;
+    font-size: 1.4em;
+    font-weight: 500;
+    
+
+ 
+    
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 5px ;
+    color:#E3D9C6;
+    font-size:3em;
+    font-weight: 600;
+    filter: drop-shadow(10px 5px 5px #91ffca);
+    
+}
+
+.main h3{
+    color:#E3D9C6;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px ;
+    margin-bottom: 30px;
+    filter: drop-shadow(10px 5px 5px #94ffcb);
+   
+
+}
+.main-btn{
+    color: #d9e9b7;
+    background-color: #07311d;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding:0.9375em 2.1875em ;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+
+.main-btn:hover{
+    background-color: #05011e;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #434443;
+    font-size: 1.5em;
+    padding-right: 0px;
+    margin-top: 30px ;
+    margin-left: 50px;
+    margin-block-end: 30px;
+    
+    
+
+   
+
+}
+
+.whatsAppfoto {
+  
+  padding:0.9375em 2.1875em ;
+  border-radius: 15px;
+  margin-bottom: 40px;
+
+  
+  width: 400px; /* Breite des Bildes */
+  height: auto;
+  
+
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.kleinelogo{ 
+  display: inline-block;
+  letter-spacing: 1px;
+ 
+  transition: 0.7s ease;
+  
+  
+}
+
+.kleinelogo:hover{
+  color: #176a00;
+  transform: scale(1.5);
+}
+
+
+.logoklein{
+    border-radius: 10px;
+    animation: spin 50s linear infinite; /* Spin-Animation für unendliche Dauer */
+   
+}
+
+
+
+.content{
+    display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+.card{
+    background-color:#05011e;
+    width: 10.25em;
+    box-shadow: 0 5px 20px rgba(179, 255, 187, 0.635);
+    border-radius: 10px;
+    padding: 25px;
+    margin:15px;
+    transition: 0.7s ease;
+    position: sticky;
+    top: 350px;
+}
+.card:hover{
+    color: #07311d;
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #E3D9C6;
+    font-size: 5em;
+    text-align: center;
+  
+}
+
+.info {
+    color:  #E3D9C6;
+    text-align: center;
+}
+.info h3{
+    color:  #E3D9C6;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+/*
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+*/
+
+
+
+.content{
+
+    background-color:#07311d;
+    box-shadow: 0 0px 50px rgba(5 5 5 / 100%);
+}
