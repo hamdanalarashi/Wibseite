@@ -51,7 +51,7 @@ section{
 
     /*background: url(images/IMG_0313.jpg) no-repeat;*/
     /*background: url(images/supermarket-background-snr9mxlroi5qrs8n.webp) no-repeat;*/
-    background-color: #000000;
+    background-color: #d0d4bb;
     background-size:cover;
     background-position:  center;
     background-attachment: fixed;
@@ -59,7 +59,7 @@ section{
     
 }
 .main h2{
-    color:#E3D9C6;
+    color:#000000;
     margin-top: 10px ;
     font-size: 1.4em;
     font-weight: 500;
@@ -72,26 +72,24 @@ section{
 .main h2 span{
     display: inline-block;
     margin-top: 5px ;
-    color:#E3D9C6;
+    color:#000000;
     font-size:3em;
     font-weight: 600;
-    filter: drop-shadow(10px 5px 5px #91ffca);
     
 }
 
 .main h3{
-    color:#E3D9C6;
+    color:#000000;
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 5px ;
     margin-bottom: 30px;
-    filter: drop-shadow(10px 5px 5px #94ffcb);
    
 
 }
 .main-btn{
-    color: #d9e9b7;
+    color:#000000;
     background-color: #07311d;
     text-decoration: none;
     font-size: 1.1em;
